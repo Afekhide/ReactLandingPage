@@ -1,0 +1,53 @@
+.pdly__manager{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 9rem;
+    column-gap: 4rem;
+    align-items: center;
+}
+
+.pdly__manager .manager-copy-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-left: 2rem;
+    justify-content: center;
+}
+
+.pdly__manager .manager-heading{
+    padding: 1rem 0;
+}
+
+.manager-heading .subtitle{
+    font-weight: var(--font-semibold);
+    font-size: 0.8rem;
+}
+
+
+.manager-heading h3{
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-weight: var(--font-black);
+}
+
+.manager-heading p{
+    font-weight: var(--font-light);
+}
+
+.pdly__manager .point{
+    display: flex;
+    padding: 0.5rem 0;
+    align-items: center;
+    column-gap: 1.5rem;
+    font-weight: var(--font-light);
+}
+
+.pdly__manager .point .point-text{
+    font-size: 1.2rem;
+}
+
+.pdly__manager .manager-illustration-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

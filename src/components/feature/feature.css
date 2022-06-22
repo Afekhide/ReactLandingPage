@@ -1,0 +1,33 @@
+.pdly__feature{
+    display: flex;
+    width: 100%;
+    row-gap: 0.6rem;
+    flex: 1;
+    flex-direction: column;
+}
+
+.pdly__feature .title{
+    font-size: 1.2rem;
+    font-weight: var(--font-semibold);
+}
+
+.pdly__feature .description{
+    font-size: 1rem;
+    width: 90%;
+    font-weight: var(--font-regular);
+}
+
+.pdly__feature .feature-icon .icon-container{
+    width: fit-content;
+    padding: 0.8rem;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 5px var(--purple-shade);
+    background-color: var(--theme-purple);
+}
+
+.icon-container:nth-of-type(2n){
+    background-color: var(--theme-orange);
+}

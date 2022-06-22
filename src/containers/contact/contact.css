@@ -1,0 +1,33 @@
+.pdly__contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 9rem 0;
+    /**background-image: url(../../assets/Oval.png);**/
+    background-position: top;
+}
+
+.pdly__contact .contact{
+    width: 40%;
+    text-align: center;
+}
+
+.pdly__contact button{
+    padding: 0.8rem 1.2rem;
+}
+
+.pdly__contact .contact h3{
+    font-weight: var(--font-bold);
+    font-size: 2rem;
+}
+
+.pdly__contact p{
+    font-weight: var(--font-regular);
+    color: #567592;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 1.5rem;
+}
+
+

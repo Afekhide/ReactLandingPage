@@ -1,0 +1,41 @@
+.pdly__features{
+    margin-top: var(--top-margin);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pdly__features .features-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.features-heading h4{
+    width: 50%;
+    font-size: var(--font-subheader);
+    text-align: center;
+    font-weight: var(--font-bold);
+}
+.pdly__features .features-container{
+    display: flex;
+    column-gap: 1.5rem;
+    margin-top: 3rem;
+    padding: 3rem 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-image: url('../../assets/blob-reverse.png')*/;
+    
+}
+
+
+.pdly__features .features-cta{
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+
+.pdly__features .features-cta button{
+    text-transform: uppercase;
+    padding: 0.8rem 2rem;
+}

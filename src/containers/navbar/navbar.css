@@ -1,0 +1,42 @@
+.pdly__navbar{
+    padding-top: var(--block-top-padding);
+    padding-bottom: var(--block-top-padding);
+    font-weight: var(--font-regular);
+    display: flex;
+}
+
+.pdly__navbar-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.pdly__navbar-logo img{
+    width: 100%;
+    flex: 1;
+}
+.pdly__navbar__links{
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pdly__navbar .pdly__navbar__links ul{
+    display: flex;
+    column-gap: var(--nav-column-gap);
+    list-style-type: none;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.pdly__navbar .pdly__navbar__links ul a{
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: var(--font-light);
+}
+
+.pdly__navbar__links-logins{
+    display: flex;
+    margin-left: 1rem;
+    column-gap: 20px;
+}

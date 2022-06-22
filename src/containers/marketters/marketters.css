@@ -1,0 +1,61 @@
+.pdly__marketters{
+    margin-top: 9rem;
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+    justify-content: center;
+}
+
+.pdly__design_prof .prof-copy-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: fit-content;
+    justify-content: center;
+}
+
+.marketter-copy-container .top-section h5{
+    font-weight: var(--font-semibold);
+    padding-bottom: 0.4rem;
+}
+
+.marketter-copy-container .top-section h3{
+    font-weight: var(--font-black);
+    font-size: 2rem;
+    
+}
+
+.marketter-copy-container .top-section p{
+    font-weight: var(--font-light);
+    padding: 1rem 0;
+}
+
+.marketter-copy-container .points{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.points .point{
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+.point .point-header{
+    font-weight: var(--font-semibold);
+    font-size: 1rem;
+}
+
+.point .point-description{
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: var(--font-light);
+}
+
+.pdly__marketters .marketter-image-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+}

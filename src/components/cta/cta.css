@@ -1,0 +1,18 @@
+.pdly__cta-btn{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 0.5rem 1.2rem;
+    background-color: var(--theme-primary);
+    color: #fff;
+    font-weight: var(--font-semibold);
+}
+
+.pdly__cta-btn.outlined{
+    border: 1px solid var(--theme-purple);
+    background-color: transparent;
+    color: var(--theme-purple);
+}
+
+
+

@@ -1,0 +1,29 @@
+.pdly__card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    flex: 0.7;
+}
+
+.pdly__card .card-info{
+    display: flex;
+}
+
+.pdly__card .card-info p{
+    padding: 0 0.2rem;
+}
+
+.pdly__card .card-info h3{
+    font-size: 1rem;
+
+}
+
+.pdly__card h3{
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.pdly__card h3:hover{
+    color: var(--theme-primary);
+}
+

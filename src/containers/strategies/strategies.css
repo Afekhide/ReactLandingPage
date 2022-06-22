@@ -1,0 +1,39 @@
+.pdly__strategies .strategies-header{
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.pdly__strategies .strategies-header h3{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: var(--font-black);
+}
+.pdly__strategies .strategies-header p{
+    font-size: 1rem;
+    font-weight: var(--font-regular);
+}
+
+.pdly__strategies .strategies-cards{
+    display: flex;
+    column-gap: 2rem;
+}
+
+.pdly__strategies .strategies-pagination{
+    display: flex;
+    padding: 5rem 0;
+    column-gap: 0.8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.strategies-pagination .pagination-icon{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #EFEFEF;
+}
+
+.strategies-pagination .pagination-icon:nth-last-of-type(2){
+    background-color: var(--theme-primary);
+}

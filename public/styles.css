@@ -1,0 +1,43 @@
+:root{
+    --font-primary: 'Poppins';
+    --font-semibold: 600;
+    --font-bold: 700;
+    --font-black: 800;
+    --font-medium: 500;
+    --font-thin: 100;
+    --font-extra-light: 200;
+    --font-default-color: #2F281E;
+    --font-regular: 400;
+    --font-light: 300;
+    --theme-primary: #FF9900;
+    --theme-purple: #7752BE;
+    --purple-shade: #EEE9F7;
+    --theme-red: #F03E3D;
+    --theme-blue: #4DADF7;
+    --block-padding:6rem;
+    --block-top-padding: 2rem;
+    --nav-column-gap: 1.5rem;
+    --top-margin: 6rem;
+    --font-subheader: 2.5rem;
+    min-height: 100vh;
+}
+
+
+*{
+    font-family:'Poppins';
+    margin:0;
+    padding: 0;
+    color: var(--font-default-color);
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.block_container{
+    padding-left: var(--block-padding);
+    padding-right: var(--block-padding);
+}
+
+
+button{
+    cursor: pointer;
+}
