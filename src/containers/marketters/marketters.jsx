@@ -6,11 +6,11 @@ const Marketters = () => {
     console.log(Illustration)
     return (
         <section className='block_container pdly__marketters'>
-            <section className="prof-copy-container">
+            <section className="marketter-copy-container">
                 <section className="top-section">
-                    <h5>Effortless Validations for</h5>
-                    <h3>Desgin Professionals</h3>
-                    <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+                    <h5>Optimizations for</h5>
+                    <h3>Marketters</h3>
+                    <p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior.  </p>
                 </section>
                 <section className="points">
                     <section className="point">

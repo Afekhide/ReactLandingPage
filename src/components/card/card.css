@@ -23,7 +23,7 @@
     font-size: 1.5rem;
 }
 
-.pdly__card h3:hover{
+.pdly__card:nth-of-type(2) h3{
     color: var(--theme-primary);
 }
 

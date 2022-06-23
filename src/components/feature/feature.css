@@ -7,12 +7,12 @@
 }
 
 .pdly__feature .title{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: var(--font-semibold);
 }
 
 .pdly__feature .description{
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 90%;
     font-weight: var(--font-regular);
 }
@@ -28,6 +28,16 @@
     background-color: var(--theme-purple);
 }
 
-.icon-container:nth-of-type(2n){
-    background-color: var(--theme-orange);
+.pdly__feature:nth-of-type(2) .icon-container{
+    background-color: var(--theme-primary);
 }
+
+.pdly__feature:nth-of-type(3) .icon-container{
+    background-color: var(--theme-red);
+}
+
+
+.pdly__feature:nth-of-type(4) .icon-container{
+    background-color: var(--theme-blue);
+}
+

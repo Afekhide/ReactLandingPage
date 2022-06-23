@@ -28,6 +28,7 @@
 .prof-copy-container .top-section p{
     font-weight: var(--font-light);
     padding: 1rem 0;
+    font-size: 1.2rem;
 }
 
 .prof-copy-container .points{
@@ -44,12 +45,12 @@
 
 .point .point-header{
     font-weight: var(--font-semibold);
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .point .point-description{
     padding-top: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: var(--font-light);
 }
 

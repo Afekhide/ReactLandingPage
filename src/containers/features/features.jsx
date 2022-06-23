@@ -28,7 +28,7 @@ const Features = () => {
         <>
         <section id='features' className='block_container pdly__features'>
             <section className='features-heading'>
-                <h4>We design tools to unveil your super power</h4>
+                <h4>We design tools to unveil your superpowers</h4>
             </section>
             <section className='features-container'>
                 {features.map((feature, index) => <Feature key={index} title={feature.title} description={feature.description} />)}

@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.pdly__design_prof .prof-copy-container{
+.pdly__marketters .marketter-copy-container{
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -28,6 +28,8 @@
 .marketter-copy-container .top-section p{
     font-weight: var(--font-light);
     padding: 1rem 0;
+    width: 80%;
+    font-size: 1.2rem;
 }
 
 .marketter-copy-container .points{
@@ -37,19 +39,20 @@
     row-gap: 1rem;
 }
 
-.points .point{
+.pdly__marketters .points .point{
     padding: 0.5rem 0;
     width: 100%;
 }
 
-.point .point-header{
+.pdly__marketters .point .point-header{
     font-weight: var(--font-semibold);
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
-.point .point-description{
+.pdly__marketters .point .point-description{
     padding-top: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    width: 80%;
     font-weight: var(--font-light);
 }
 
